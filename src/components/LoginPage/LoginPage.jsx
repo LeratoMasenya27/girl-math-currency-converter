@@ -9,13 +9,10 @@ import { MdOutlineStarRate } from "react-icons/md";
 const LoginPage = () => {
     return (
         <div className="title">
-            <IoIosStarOutline />
-            <h1>
-                Girl Math
-            </h1>
+            
+            <h1>Girl Math</h1>
             <h2>Currency Converter</h2>
 
-            {/* Missing form opening tag added here */}
             <form className="wrapper">
                 <h3>Email/ Username</h3>
                 <div className="input-box">
@@ -32,7 +29,7 @@ const LoginPage = () => {
                     <a href="#">Forgot password?</a>
                 </div>
 
-                <button type="submit">Login & Justify</button>
+                <button type="submit"> Login & Justify</button>
 
                 <div className="register-link">
                     <p>New here? Create an <a href="#">account</a> and make math fun!</p>

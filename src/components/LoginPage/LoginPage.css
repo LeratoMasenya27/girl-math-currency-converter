@@ -57,12 +57,14 @@
     display: flex;
     justify-content: space-between;
     font-size: 14px;
+    padding: 10px 10px;
     
 }
 
 .remember-forgot label input {
     accent-color: rgb(201, 133, 160);
     margin-right: 4px;
+    
 }
 
 .remember-forgot a {
@@ -83,6 +85,7 @@
     font-size: 20px;
     font-family: acme;
     color: rgb(255, 255, 255);
+    text-decoration: none;
 }
 
 .wrapper .register-link {
