@@ -16,7 +16,9 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 500px;
-  background: rgb(255, 204, 218);
+  background: url('./components/Asserts/Fotos\ de\ {{name}}\ -\ Descarga\ fotos\ gratis\ de\ gran\ calidad\ _\ Freepik.jpg') no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 code {
