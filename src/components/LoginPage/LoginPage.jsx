@@ -1,22 +1,34 @@
 import React from "react";
 import "../LoginPage/LoginPage.css";
+import { FaRegUser } from "react-icons/fa";
+import { IoLockClosed } from "react-icons/io5";
+import { IoIosStarOutline } from "react-icons/io";
+import { MdOutlineStarRate } from "react-icons/md";
+
 
 const LoginPage = () => {
     return (
-        <div className="wrapper">
-            <form action="">
-                <h1>Girl Math</h1>
-                <h2>Currency Converter</h2>
+        <div className="title">
+            <IoIosStarOutline />
+            <h1>
+                Girl Math
+            </h1>
+            <h2>Currency Converter</h2>
+
+            {/* Missing form opening tag added here */}
+            <form className="wrapper">
                 <h3>Email/ Username</h3>
                 <div className="input-box">
-                    <input type="text" placeholder="Email/ Username" required/>
+                    <FaRegUser className="icon" />
+                    <input type="text" placeholder="Email/ Username" required />
                 </div>
                 <div className="input-box">
-                    <input type="password" placeholder="Password" required/>
+                    <IoLockClosed className="icon" />
+                    <input type="password" placeholder="Password" required />
                 </div>
 
                 <div className="remember-forgot">
-                    <label><input type="checkbox" />Remember me</label>
+                    <label><input type="checkbox" /> Remember me</label>
                     <a href="#">Forgot password?</a>
                 </div>
 
@@ -26,7 +38,6 @@ const LoginPage = () => {
                     <p>New here? Create an <a href="#">account</a> and make math fun!</p>
                 </div>
             </form>
-
         </div>
     );
 };
